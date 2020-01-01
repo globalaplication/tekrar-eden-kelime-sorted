@@ -1,0 +1,7 @@
+girdi = "selam merhaba test deneme test"
+
+girdi = [girdi for girdi in list(set(girdi.split()))]
+
+girdi = sorted(girdi)
+
+print(girdi)
